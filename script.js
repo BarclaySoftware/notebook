@@ -20,7 +20,7 @@ require(['vs/editor/editor.main'], function () {
             'editor.foreground': '#dcdcdc',
             'editor.background': '#1e1e1e',
             'editorCursor.foreground': '#e7e7e7',
-            'editor.lineHighlightBackground': '#2e2e2e',
+            // 'editor.lineHighlightBackground': '#2e2e2e',
             'editorLineNumber.foreground': '#8a8a8a',
             'editor.selectionBackground': '#264f78',
             'minimap.background': '#1e1e1e',
