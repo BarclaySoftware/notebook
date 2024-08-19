@@ -41,7 +41,7 @@ require(['vs/editor/editor.main'], function () {
         wordWrap: "off"
     });
 
-    const font = new FontFace('andorraMono', 'url(https://andorraeditor.pages.dev/assets/fonts/andorra.ttf)');
+    const font = new FontFace('andorraMono', 'url(https://andorra-notebook.pages.dev/AndorraCode.ttf)');
 
     font.load().then(() => {
         document.fonts.add(font);
