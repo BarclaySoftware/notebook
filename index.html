@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Andorra Notebook</title>
+
+    <link rel="icon" type="image/png" href="https://cdn360.pages.dev/products/WebCode/icon.png" sizes="30x30">
+    <link rel="icon" type="image/png" href="https://cdn360.pages.dev/products/WebCode/icon.png" sizes="600x600">
+
+    <script src="./andorra-editor/min/vs/loader.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <img id="logo" src="https://cdn360.pages.dev/products/WebCode/wordmark.png" alt="Logo">
+
+    <div class="button-container">
+        <button id="openButton">📂 Open</button>
+        <button id="saveButton">💾 Save</button>
+        <button id="saveDump">Dump</button>
+        <select id="lineWrapSelect">
+            <option value="off">Line Wrap: Disabled</option>
+            <option value="on">Line Wrap: Enabled</option>
+        </select>
+        <select id="minimapSelect">
+            <option value="on">Mini Map: Enabled</option>
+            <option value="off">Mini Map: Disabled</option>
+        </select>
+    </div>
+
+    <div id="editor-container">
+        <div id="editor"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
